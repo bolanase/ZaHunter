@@ -21,6 +21,7 @@
 		25A7557D18905BD300D204CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A7555F18905BD300D204CA /* UIKit.framework */; };
 		25A7558518905BD300D204CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25A7558318905BD300D204CA /* InfoPlist.strings */; };
 		25A7558718905BD300D204CA /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A7558618905BD300D204CA /* ZaHunterTests.m */; };
+		25A7559118905DF700D204CA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A7559018905DF700D204CA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		25A7558218905BD300D204CA /* ZaHunterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZaHunterTests-Info.plist"; sourceTree = "<group>"; };
 		25A7558418905BD300D204CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25A7558618905BD300D204CA /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
+		25A7559018905DF700D204CA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A7559118905DF700D204CA /* MapKit.framework in Frameworks */,
 				25A7555E18905BD300D204CA /* CoreGraphics.framework in Frameworks */,
 				25A7556018905BD300D204CA /* UIKit.framework in Frameworks */,
 				25A7555C18905BD300D204CA /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		25A7555A18905BD300D204CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25A7559018905DF700D204CA /* MapKit.framework */,
 				25A7555B18905BD300D204CA /* Foundation.framework */,
 				25A7555D18905BD300D204CA /* CoreGraphics.framework */,
 				25A7555F18905BD300D204CA /* UIKit.framework */,
